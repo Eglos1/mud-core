@@ -1,0 +1,26 @@
+[
+  {
+    "vnum": 1,
+    "name": "Aylor General Store",
+    "keeper_vnum": null,
+    "room_vnum": 3004,
+    "products": [1009, 1010, 1004, 1012],
+    "buy_types": ["trash", "weapon", "armor", "container", "light", "potion"],
+    "markup": 1.5,
+    "demarkup": 0.25,
+    "no_sell_flags": ["quest", "no_sell"],
+    "profit_cap": 100000
+  },
+  {
+    "vnum": 2,
+    "name": "The Iron Forge",
+    "keeper_vnum": null,
+    "room_vnum": 3005,
+    "products": [1006, 1011, 1007, 1012, 1013],
+    "buy_types": ["weapon", "armor", "trash"],
+    "markup": 1.6,
+    "demarkup": 0.3,
+    "no_sell_flags": ["quest", "no_sell"],
+    "profit_cap": 200000
+  }
+]

@@ -1,0 +1,844 @@
+[
+  {
+    "vnum": 1,
+    "name": "a giant rat",
+    "short_desc": "a giant rat",
+    "long_desc": "A mangy rat the size of a dog, with yellow teeth and beady red eyes.",
+    "keywords": [
+      "rat",
+      "giant",
+      "giant rat"
+    ],
+    "level": 1,
+    "hp": 25,
+    "mana": 10,
+    "stats": {
+      "str": 8,
+      "int": 4,
+      "wis": 4,
+      "dex": 12,
+      "con": 10,
+      "luc": 6
+    },
+    "hitroll": 3,
+    "damroll": 1,
+    "damage_type": "pierce",
+    "armor": 3,
+    "xp": 60,
+    "gold": 5,
+    "alignment": 0,
+    "flags": [],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 2,
+    "name": "a rabbit",
+    "short_desc": "a rabbit",
+    "long_desc": "A small, fluffy rabbit with twitching nose and long ears.",
+    "keywords": [
+      "rabbit",
+      "bunny"
+    ],
+    "level": 1,
+    "hp": 15,
+    "mana": 5,
+    "stats": {
+      "str": 5,
+      "int": 3,
+      "wis": 5,
+      "dex": 15,
+      "con": 8,
+      "luc": 10
+    },
+    "hitroll": 2,
+    "damroll": 1,
+    "damage_type": "bash",
+    "armor": 5,
+    "xp": 40,
+    "gold": 0,
+    "alignment": 0,
+    "flags": [
+      "wimpy"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 3,
+    "name": "a garden snake",
+    "short_desc": "a garden snake",
+    "long_desc": "A slender green snake with dark markings along its back.",
+    "keywords": [
+      "snake",
+      "garden",
+      "garden snake"
+    ],
+    "level": 2,
+    "hp": 30,
+    "mana": 15,
+    "stats": {
+      "str": 7,
+      "int": 3,
+      "wis": 5,
+      "dex": 14,
+      "con": 10,
+      "luc": 8
+    },
+    "hitroll": 5,
+    "damroll": 3,
+    "damage_type": "pierce",
+    "armor": 4,
+    "xp": 100,
+    "gold": 6,
+    "alignment": 0,
+    "flags": [],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 4,
+    "name": "a goblin",
+    "short_desc": "a goblin",
+    "long_desc": "A small, green-skinned humanoid with sharp teeth and a cruel grin.",
+    "keywords": [
+      "goblin"
+    ],
+    "level": 3,
+    "hp": 50,
+    "mana": 20,
+    "stats": {
+      "str": 11,
+      "int": 8,
+      "wis": 7,
+      "dex": 12,
+      "con": 11,
+      "luc": 7
+    },
+    "hitroll": 6,
+    "damroll": 4,
+    "damage_type": "slash",
+    "armor": 5,
+    "xp": 200,
+    "gold": 14,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {
+      "main_hand": {
+        "weapon_type": "sword",
+        "damage": [
+          2,
+          5
+        ],
+        "hitroll": 2
+      }
+    },
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 5,
+    "name": "a grey wolf",
+    "short_desc": "a grey wolf",
+    "long_desc": "A lean, grey-furred wolf with intelligent yellow eyes.",
+    "keywords": [
+      "wolf",
+      "grey",
+      "grey wolf"
+    ],
+    "level": 4,
+    "hp": 70,
+    "mana": 25,
+    "stats": {
+      "str": 13,
+      "int": 6,
+      "wis": 8,
+      "dex": 14,
+      "con": 13,
+      "luc": 8
+    },
+    "hitroll": 8,
+    "damroll": 5,
+    "damage_type": "pierce",
+    "armor": 4,
+    "xp": 350,
+    "gold": 11,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 6,
+    "name": "a skeleton",
+    "short_desc": "a skeleton",
+    "long_desc": "The remains of a long-dead warrior, now animated by dark magic. It clutches a rusty sword.",
+    "keywords": [
+      "skeleton",
+      "undead"
+    ],
+    "level": 5,
+    "hp": 90,
+    "mana": 30,
+    "stats": {
+      "str": 14,
+      "int": 2,
+      "wis": 3,
+      "dex": 10,
+      "con": 15,
+      "luc": 4
+    },
+    "hitroll": 9,
+    "damroll": 6,
+    "damage_type": "slash",
+    "armor": 6,
+    "xp": 500,
+    "gold": 6,
+    "alignment": 0,
+    "flags": [
+      "aggressive",
+      "undead"
+    ],
+    "resists": {
+      "pierce": 25,
+      "slash": 25
+    },
+    "weakness": {
+      "bash": 25,
+      "fire": 25
+    },
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 7,
+    "name": "a bandit",
+    "short_desc": "a bandit",
+    "long_desc": "A rough-looking man with a scarred face and a hand resting on his weapon.",
+    "keywords": [
+      "bandit",
+      "human",
+      "man"
+    ],
+    "level": 6,
+    "hp": 110,
+    "mana": 40,
+    "stats": {
+      "str": 14,
+      "int": 10,
+      "wis": 9,
+      "dex": 13,
+      "con": 13,
+      "luc": 9
+    },
+    "hitroll": 10,
+    "damroll": 7,
+    "damage_type": "slash",
+    "armor": 7,
+    "xp": 650,
+    "gold": 26,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {
+      "main_hand": {
+        "weapon_type": "sword",
+        "damage": [
+          2,
+          7
+        ],
+        "hitroll": 3
+      }
+    },
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 8,
+    "name": "a black bear",
+    "short_desc": "a black bear",
+    "long_desc": "A massive black bear, its fur matted and its claws as long as daggers.",
+    "keywords": [
+      "bear",
+      "black",
+      "black bear"
+    ],
+    "level": 8,
+    "hp": 180,
+    "mana": 40,
+    "stats": {
+      "str": 18,
+      "int": 4,
+      "wis": 6,
+      "dex": 10,
+      "con": 17,
+      "luc": 6
+    },
+    "hitroll": 12,
+    "damroll": 9,
+    "damage_type": "slash",
+    "armor": 5,
+    "xp": 900,
+    "gold": 29,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 10,
+    "name": "Priest of Aylor",
+    "short_desc": "Priest of Aylor",
+    "long_desc": "A kindly old man in white robes, his eyes twinkling with wisdom.",
+    "keywords": [
+      "priest",
+      "aylor",
+      "old man"
+    ],
+    "level": 20,
+    "hp": 500,
+    "mana": 500,
+    "stats": {
+      "str": 12,
+      "int": 18,
+      "wis": 20,
+      "dex": 10,
+      "con": 14,
+      "luc": 15
+    },
+    "hitroll": 5,
+    "damroll": 2,
+    "damage_type": "bash",
+    "armor": 20,
+    "xp": 0,
+    "gold": 0,
+    "alignment": 0,
+    "flags": [
+      "sentinel"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 11,
+    "name": "Explorer Elara",
+    "short_desc": "Explorer Elara",
+    "long_desc": "A sturdy woman with a weathered map case slung over her shoulder.",
+    "keywords": [
+      "explorer",
+      "elara",
+      "woman"
+    ],
+    "level": 15,
+    "hp": 300,
+    "mana": 200,
+    "stats": {
+      "str": 14,
+      "int": 15,
+      "wis": 13,
+      "dex": 16,
+      "con": 14,
+      "luc": 13
+    },
+    "hitroll": 8,
+    "damroll": 4,
+    "damage_type": "bash",
+    "armor": 15,
+    "xp": 0,
+    "gold": 0,
+    "alignment": 0,
+    "flags": [
+      "sentinel"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 12,
+    "name": "Captain Aldric",
+    "short_desc": "Captain Aldric",
+    "long_desc": "A scarred veteran in polished armor, with a stern gaze that misses nothing.",
+    "keywords": [
+      "captain",
+      "aldric",
+      "guard"
+    ],
+    "level": 25,
+    "hp": 800,
+    "mana": 200,
+    "stats": {
+      "str": 18,
+      "int": 12,
+      "wis": 14,
+      "dex": 15,
+      "con": 18,
+      "luc": 12
+    },
+    "hitroll": 15,
+    "damroll": 10,
+    "damage_type": "bash",
+    "armor": 30,
+    "xp": 0,
+    "gold": 0,
+    "alignment": 0,
+    "flags": [
+      "sentinel"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 13,
+    "name": "Hunter Kaelen",
+    "short_desc": "Hunter Kaelen",
+    "long_desc": "A lean, weathered man in a fur-lined cloak, a longbow slung across his back.",
+    "keywords": [
+      "hunter",
+      "kaelen",
+      "man"
+    ],
+    "level": 18,
+    "hp": 400,
+    "mana": 250,
+    "stats": {
+      "str": 15,
+      "int": 13,
+      "wis": 15,
+      "dex": 19,
+      "con": 15,
+      "luc": 14
+    },
+    "hitroll": 12,
+    "damroll": 8,
+    "damage_type": "bash",
+    "armor": 18,
+    "xp": 0,
+    "gold": 0,
+    "alignment": 0,
+    "flags": [
+      "sentinel"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 14,
+    "name": "a giant spider",
+    "short_desc": "a giant spider",
+    "long_desc": "A massive black-furred spider with eight gleaming eyes and dripping mandibles.",
+    "keywords": [
+      "spider",
+      "giant",
+      "giant spider"
+    ],
+    "level": 4,
+    "hp": 60,
+    "mana": 30,
+    "stats": {
+      "str": 12,
+      "int": 3,
+      "wis": 5,
+      "dex": 16,
+      "con": 11,
+      "luc": 7
+    },
+    "hitroll": 9,
+    "damroll": 5,
+    "damage_type": "pierce",
+    "armor": 4,
+    "xp": 400,
+    "gold": 7,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {
+      "poison": 50
+    },
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 15,
+    "name": "a darkwood treant",
+    "short_desc": "a darkwood treant",
+    "long_desc": "An ancient tree-like being, its bark-like skin covered in dark moss. Its eyes glow with an emerald light.",
+    "keywords": [
+      "treant",
+      "darkwood",
+      "tree"
+    ],
+    "level": 7,
+    "hp": 150,
+    "mana": 80,
+    "stats": {
+      "str": 18,
+      "int": 10,
+      "wis": 14,
+      "dex": 6,
+      "con": 18,
+      "luc": 8
+    },
+    "hitroll": 10,
+    "damroll": 8,
+    "damage_type": "bash",
+    "armor": 10,
+    "xp": 750,
+    "gold": 19,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {
+      "pierce": 50,
+      "bash": 25
+    },
+    "weakness": {
+      "fire": 50
+    },
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 16,
+    "name": "a goblin shaman",
+    "short_desc": "a goblin shaman",
+    "long_desc": "A goblin adorned with feathers and bones, clutching a twisted staff. Dark energy crackles around its fingers.",
+    "keywords": [
+      "goblin",
+      "shaman",
+      "goblin shaman"
+    ],
+    "level": 6,
+    "hp": 80,
+    "mana": 150,
+    "stats": {
+      "str": 10,
+      "int": 16,
+      "wis": 14,
+      "dex": 12,
+      "con": 10,
+      "luc": 9
+    },
+    "hitroll": 8,
+    "damroll": 5,
+    "damage_type": "magic",
+    "armor": 5,
+    "xp": 550,
+    "gold": 29,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 17,
+    "name": "a darkwood stalker",
+    "short_desc": "a darkwood stalker",
+    "long_desc": "A lithe, shadowy figure wrapped in dark leathers. Only its eyes are visible beneath the hood.",
+    "keywords": [
+      "stalker",
+      "darkwood",
+      "assassin"
+    ],
+    "level": 9,
+    "hp": 120,
+    "mana": 80,
+    "stats": {
+      "str": 14,
+      "int": 12,
+      "wis": 10,
+      "dex": 20,
+      "con": 13,
+      "luc": 12
+    },
+    "hitroll": 14,
+    "damroll": 9,
+    "damage_type": "pierce",
+    "armor": 6,
+    "xp": 1000,
+    "gold": 34,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 18,
+    "name": "a darkwood wraith",
+    "short_desc": "a darkwood wraith",
+    "long_desc": "A translucent, spectral figure that drifts silently through the trees. An aura of cold emanates from it.",
+    "keywords": [
+      "wraith",
+      "darkwood",
+      "spectre"
+    ],
+    "level": 10,
+    "hp": 100,
+    "mana": 200,
+    "stats": {
+      "str": 8,
+      "int": 16,
+      "wis": 16,
+      "dex": 14,
+      "con": 8,
+      "luc": 6
+    },
+    "hitroll": 12,
+    "damroll": 7,
+    "damage_type": "cold",
+    "armor": 8,
+    "xp": 1200,
+    "gold": 0,
+    "alignment": 0,
+    "flags": [
+      "aggressive",
+      "undead"
+    ],
+    "resists": {
+      "pierce": 75,
+      "slash": 75,
+      "cold": 100
+    },
+    "weakness": {
+      "fire": 50,
+      "magic": 25
+    },
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  },
+  {
+    "vnum": 19,
+    "name": "a darkwood boar",
+    "short_desc": "a darkwood boar",
+    "long_desc": "A massive wild boar with tusks the length of daggers. Its bristly hide is caked with mud and gore.",
+    "keywords": [
+      "boar",
+      "wild",
+      "darkwood boar"
+    ],
+    "level": 6,
+    "hp": 140,
+    "mana": 40,
+    "stats": {
+      "str": 16,
+      "int": 4,
+      "wis": 6,
+      "dex": 11,
+      "con": 16,
+      "luc": 7
+    },
+    "hitroll": 11,
+    "damroll": 7,
+    "damage_type": "pierce",
+    "armor": 7,
+    "xp": 600,
+    "gold": 6,
+    "alignment": 0,
+    "flags": [
+      "aggressive"
+    ],
+    "resists": {},
+    "weakness": {},
+    "skills": [],
+    "equipment": {},
+    "inventory": [],
+    "dialogue": {},
+    "faction": null,
+    "damage_strings": {
+      "hits": "hits",
+      "wounds": "wounds",
+      "mauls": "mauls",
+      "destroys": "DESTROYS"
+    }
+  }
+]

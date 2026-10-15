@@ -1,0 +1,515 @@
+{
+  "zones": [
+    {
+      "name": "Temple of Aylor",
+      "low_vnum": 3000,
+      "hi_vnum": 3099,
+      "flags": [],
+      "topography": "city",
+      "levels": [
+        1,
+        10
+      ],
+      "respawn_table": [],
+      "loot_table": []
+    }
+  ],
+  "rooms": [
+    {
+      "vnum": 3001,
+      "name": "Temple of Aylor",
+      "desc": "You stand in the grand Temple of Aylor. Marble pillars rise toward a vaulted ceiling painted with celestial scenes. A warm light emanates from the altar at the center.",
+      "zone": "temple",
+      "exits": {
+        "south": {
+          "direction": "south",
+          "target_room": 3002,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "city",
+      "flags": [
+        "safe",
+        "indoors"
+      ],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        0,
+        0,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3002,
+      "name": "Temple Courtyard",
+      "desc": "A peaceful courtyard surrounds the temple. Flowering bushes line the stone paths. The city gates lie to the south.",
+      "zone": "temple",
+      "exits": {
+        "north": {
+          "direction": "north",
+          "target_room": 3001,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "south": {
+          "direction": "south",
+          "target_room": 3003,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "city",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        0,
+        1,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3003,
+      "name": "City Square",
+      "desc": "The central square of Aylor is bustling with activity. Market stalls line the edges of the cobblestone plaza. Streets lead in all directions.",
+      "zone": "temple",
+      "exits": {
+        "north": {
+          "direction": "north",
+          "target_room": 3002,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "east": {
+          "direction": "east",
+          "target_room": 3004,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "west": {
+          "direction": "west",
+          "target_room": 3005,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "south": {
+          "direction": "south",
+          "target_room": 3006,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "city",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        0,
+        2,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3004,
+      "name": "General Store",
+      "desc": "Shelves line the walls of this small shop, filled with various goods. A friendly shopkeeper stands behind the counter.",
+      "zone": "temple",
+      "exits": {},
+      "sector": "city",
+      "flags": [
+        "indoors",
+        "safe"
+      ],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        1,
+        2,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3005,
+      "name": "Blacksmith",
+      "desc": "The heat of the forge washes over you as you enter. Weapons and armor hang on the walls. The blacksmith hammers away at an anvil.",
+      "zone": "temple",
+      "exits": {},
+      "sector": "city",
+      "flags": [
+        "indoors",
+        "safe"
+      ],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        -1,
+        2,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3006,
+      "name": "City Gates",
+      "desc": "Large iron-bound wooden doors mark the entrance to Aylor. The road beyond stretches south into the wilderness.",
+      "zone": "temple",
+      "exits": {
+        "south": {
+          "direction": "south",
+          "target_room": 3010,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "city",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        0,
+        3,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3010,
+      "name": "The Great North Road",
+      "desc": "A well-traveled road stretches north-south through gently rolling hills. Fields of wildflowers sway in the breeze.",
+      "zone": "temple",
+      "exits": {
+        "north": {
+          "direction": "north",
+          "target_room": 3006,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "south": {
+          "direction": "south",
+          "target_room": 3011,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "plains",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        0,
+        4,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3011,
+      "name": "Crossroads",
+      "desc": "The road intersects with a smaller path here. A weathered signpost points in several directions.",
+      "zone": "temple",
+      "exits": {
+        "north": {
+          "direction": "north",
+          "target_room": 3010,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "east": {
+          "direction": "east",
+          "target_room": 3020,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "west": {
+          "direction": "west",
+          "target_room": 3030,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "plains",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        0,
+        5,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3020,
+      "name": "Edge of the Whisperwood",
+      "desc": "The trees here are tall and ancient, their branches intertwining overhead to create a dappled canopy. The path leads deeper into the forest.",
+      "zone": "temple",
+      "exits": {
+        "west": {
+          "direction": "west",
+          "target_room": 3011,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "east": {
+          "direction": "east",
+          "target_room": 3021,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "forest",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        2,
+        5,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3021,
+      "name": "Whisperwood Path",
+      "desc": "Sunlight filters through the leaves, creating shifting patterns on the forest floor. You hear rustling in the underbrush.",
+      "zone": "temple",
+      "exits": {
+        "west": {
+          "direction": "west",
+          "target_room": 3020,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "north": {
+          "direction": "north",
+          "target_room": 3022,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "forest",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        2,
+        6,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3022,
+      "name": "Forest Clearing",
+      "desc": "A peaceful clearing where a small stream babbles over smooth stones. Deer tracks are visible in the soft earth.",
+      "zone": "temple",
+      "exits": {
+        "south": {
+          "direction": "south",
+          "target_room": 3021,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "forest",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        3,
+        6,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3030,
+      "name": "Rolling Hills",
+      "desc": "Gentle green hills stretch as far as the eye can see. A cool breeze carries the scent of wild thyme.",
+      "zone": "temple",
+      "exits": {
+        "east": {
+          "direction": "east",
+          "target_room": 3011,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "west": {
+          "direction": "west",
+          "target_room": 3031,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "hills",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        -2,
+        5,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3031,
+      "name": "Hilltop",
+      "desc": "From this vantage point you can see the spires of Aylor to the north and the dark line of the Whisperwood to the east.",
+      "zone": "temple",
+      "exits": {
+        "east": {
+          "direction": "east",
+          "target_room": 3030,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "west": {
+          "direction": "west",
+          "target_room": 3040,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "hills",
+      "flags": [],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        -2,
+        6,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3040,
+      "name": "Cave Entrance",
+      "desc": "A dark opening in the hillside, partially hidden by overgrown bushes. A chill emanates from within.",
+      "zone": "temple",
+      "exits": {
+        "east": {
+          "direction": "east",
+          "target_room": 3031,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        },
+        "south": {
+          "direction": "south",
+          "target_room": 3041,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "mountain",
+      "flags": [
+        "dark"
+      ],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        -3,
+        7,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    },
+    {
+      "vnum": 3041,
+      "name": "Cave Passage",
+      "desc": "The tunnel winds deeper into the earth. Water drips from the ceiling, and strange echoes bounce off the walls.",
+      "zone": "temple",
+      "exits": {
+        "north": {
+          "direction": "north",
+          "target_room": 3040,
+          "flags": [],
+          "desc": "",
+          "key": null,
+          "door": null
+        }
+      },
+      "sector": "underdark",
+      "flags": [
+        "dark"
+      ],
+      "extra_descs": {},
+      "respawns": [],
+      "coord": [
+        -3,
+        8,
+        0
+      ],
+      "owner": null,
+      "note": ""
+    }
+  ]
+}
